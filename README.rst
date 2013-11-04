@@ -94,15 +94,17 @@ re-register for SimplePush, the SimplePush client-id is sent to Presence to tie 
 
 Presence stores a set of data (rough schema):
 
-Client-Mappings:
-    Client-ID   | Corresponds to the client-id that is used for SimplePush
-    FxA-ID      | The FxA of the presence user
+.. code::
 
-Presence-Authentications
-    FxA         | The FxA of the presence user
-    Service-ID  | Service ID that the app developer registered for this service
-    UUID        | A unique ID for this user on this service, to avoid leaking the FxA ID
-    Status      | Boolean flag on whether the user currently wants presence broadcast to this service
+    Client-Mappings:
+        Client-ID   | Corresponds to the client-id that is used for SimplePush
+        FxA-ID      | The FxA of the presence user
+
+    Presence-Authentications
+        FxA         | The FxA of the presence user
+        Service-ID  | Service ID that the app developer registered for this service
+        UUID        | A unique ID for this user on this service, to avoid leaking the FxA ID
+        Status      | Boolean flag on whether the user currently wants presence broadcast to this service
 
 .. note::
     
