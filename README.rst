@@ -147,5 +147,3 @@ database indicating this.
 Jeff's friend Marsha goes to Facebook to see if any of her friends are online. Marsha sees that Jeff is now online
 and sends a chat request. Facebook uses SimplePush to notify Jeff of the chat request. Jeff sees the chat request
 and switches over to his Facebook app to talk to Marsha.
-
-When Jeff is using his phone, Facebook recieves a webhook call indicating he is online
