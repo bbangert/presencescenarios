@@ -106,6 +106,7 @@ Presence stores a set of data (rough schema):
         UUID        | A unique ID for this user on this service, to avoid leaking the FxA ID
         Status      | Boolean flag on whether the user currently wants presence broadcast to this service
 
+
 .. note::
     
     When the user changes the toggle on their device to turn on/off Presence, their device must be able to
